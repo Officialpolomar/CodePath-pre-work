@@ -10,36 +10,8 @@ import ViewCreator  from './components/pages/ViewCreator.tsx'
 
 
 function App() {
-
-  type Instrument = {
-  id: number,
-      name: string,
-      url: string,
-      description: string,
-      imageUrl: string
-  // Add other fields like: brand, price, category, etc.
-};
-
-  const [instruments, setInstruments] = useState<Instrument[]>([]);
-
-    useEffect(() => {
-      getInstruments();
-    }, []);
-
-    async function getInstruments() {
-      const { data } = await supabase.from("instruments").select();
-      setInstruments(data || []);
-
-    }
   return (
     <div>
-      <ul>
-      {instruments.map((instrument) => (
-        <li key={instrument.name}>{instrument.name}</li>
-      )
-      )}
-    </ul>
-    
     <div>
         <nav>
           <Link to="/">Home</Link>
