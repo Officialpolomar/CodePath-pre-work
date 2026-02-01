@@ -1,12 +1,12 @@
-# WEB103 Prework - *👉🏿 Name of App Here*
+# WEB103 Prework - Creator Profiles with React
 
-Submitted by: Omar White
+Submitted by: Omar White-Evans
 
 About this web app: 
 
-This is a react application which allows users to interact with content creator profiles. This involves adding, deleting, creating, and modifying creator profile components.
+This is a React application which allows users to interact with content creator profiles. This involves adding, deleting, creating, and modifying creator profile components.
 
-Time spent: 30 hours
+Time spent: ~30 hours
 
 ## Required Features
 
@@ -37,24 +37,16 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  👉🏿 GIF tool here
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+VIDEO SUBMISSION/PROJECT DEMONSTRATION --> https://www.youtube.com/watch?v=GQVMfMv-DcA
 
 ## Notes
+Project Challenges:
 
-Describe any challenges encountered while building the app or any additional context you'd like to add.
-
-Connecting the database(supabase) to the app had its challenges, as there were small bugs that took time to find. This includes finding out that the spelling of attributes of the react form, to interact with supabase, didn't match the columns of the database leading to errors.
+Connecting the database(supabase) to the React app had its challenges, as there were small bugs that took time to find. This included finding out that the spelling of the attributes on the React form did not match the columns of the database which led to errors. After fixing this issue, the process of building the rest of the app went smoothly.
 
 ## License
 
-Copyright [2026] [Omar White-Evans]
+Copyright [2026]
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
